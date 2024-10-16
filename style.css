@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Latar belakang abu-abu terang */
+}
+
+header {
+    background: #d35400; /* Oranye gelap */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; /* Warna emas saat hover */
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: #ffffff; /* Latar belakang putih */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Lebar maksimum */
+}
+
+h2 {
+    color: #e67e22; /* Oranye gelap */
+    border-bottom: 2px solid #f39c12; /* Garis bawah oranye cerah */
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #2980b9; /* Biru */
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0; /* Jarak antar item */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #34495e; /* Abu-abu gelap */
+    color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
